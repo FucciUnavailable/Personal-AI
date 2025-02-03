@@ -19,7 +19,7 @@ interface = gr.Interface(
     inputs=gr.Textbox(lines=2, placeholder="Ask your question..."),
     outputs=gr.Textbox(),
     title="Amine's Personal Helper",
-    description="Ask me questions about what to include in your resume!"
+    description="Ask me questions about anything you want"
 )
 
 # Launch the Gradio app
